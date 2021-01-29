@@ -12,8 +12,9 @@ escolhidas pelo usuário.
 
 ### Instalando as Dependências
 
-1. pip3 install -r requirements.txt
-
+```
+pip3 install -r requirements.txt
+```
 
 ### Uso
 
