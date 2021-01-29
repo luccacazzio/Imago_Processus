@@ -1,6 +1,14 @@
 # Imago Processus
 
-Software usado para manipulação de imagens.
+Software usado para manipulação de imagens de mamografias a fim de classificá-las na escala BIRADS. Essa é uma escala que define a densidade como sendo ou quase inteiramente composta por gordura (densidade I), por tecido fibrobroglandular difuso (densidade II), por tecido denso heterogêneo (III) ou por tecido extremamente denso (IV). Para realizar o treinamento e a classificação, usamos a distância de Mahalanobis das seguintes características: 
+
+- Energia
+- Entropia
+- Homogeneidade
+- Contraste
+- Momentos invariantes de Hu
+
+escolhidas pelo usuário.
 
 ### Instalando as Dependências
 
